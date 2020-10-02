@@ -1,0 +1,26 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "templates/index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "bootstrap4": "0.0.1-security",
+    "font-awesome": "^4.7.0",
+    "install": "^0.13.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

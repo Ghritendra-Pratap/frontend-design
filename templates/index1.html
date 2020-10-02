@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="css/styles.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     
+     
+ 
+    <title>Project1</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default bg-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+           <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            
+           <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>    
+                <span class="navbar-text">
+                    <a data-toggle="modal" href="#loginModal">
+                        <span class="fa fa-sign-in"></span> Login</a>
+                </span>        
+        </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/nature1.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+    <h3 class="animate__animated animate__bounceInLeft" style="animation-delay : 0.5s">I am <span>WATTSON</span></h3>
+    <h4 class="animate__animated animate__bounceInLeft" style="animation-delay : 1s">High-power weapons Low-power weapons ,how about No-power weapons </h4>
+    <a href="#">Get Started</a><br><br><br><br><br><br>
+    <h5 class="animate__animated animate__infinite animate__bounce">\/</h5>
+  </div>
+  
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/oil.jpg" alt="Second slide">
+       <div class="carousel-caption d-none d-md-block">
+    <h3 class="animate__animated animate__bounceInLeft" style="animation-delay : 0.5s">I am <span>Bloodhound</span></h3>
+    <h4 class="animate__animated animate__bounceInLeft" style="animation-delay : 1s">the allfather will give us gift today</h4>
+    <a href="#">Get Started</a><br><br><br><br><br><br>
+    <h5 class="animate__animated animate__infinite animate__bounce">\/</h5>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/bridge.jpg" alt="Third slide">
+       <div class="carousel-caption d-none d-md-block">
+    <h3 class="animate__animated animate__bounceInLeft" style="animation-delay : 0.5s">I am <span>WRAITH</span></h3>
+    <h4 class="animate__animated animate__bounceInLeft" style="animation-delay : 1s">Trust me - I know what I’m doing</h4>
+    <a href="#">Get Started</a><br><br><br><br><br><br>
+    <h5 class="animate__animated animate__infinite animate__bounce">\/</h5>
+  </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="middle">
+    <div class="container">
+  
+    <div class="how">
+    <h1> HOW ITS WORK<h1>
+    <p> -----</p>
+    </div>
+    </div>
+  
+  <div class="container">
+  <div class="row justify-content-center">
+  <div class="col-sm-3">
+ <div class="card shadow-lg" style="width: 15rem;">
+  <img class="card-img-top" src="img/logo.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title align-self-center">Card title</h5>
+    <p class="card-text align-self-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   
+  </div>
+</div>
+
+</div>
+
+<div class="col-sm-3">
+ <div class="card shadow-lg" style="width: 15rem;">
+  <img class="card-img-top" src="img/logo.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title align-self-center">Card title</h5>
+    <p class="card-text align-self-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+ <div class="card shadow-lg" style="width: 15rem;">
+  <img class="card-img-top image" src="img/logo.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title align-self-center">Card title</h5>
+    <p class="card-text align-self-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+  </div>
+</div>
+
+</div>
+
+<div class="col-sm-3">
+  <div class="card shadow-lg" style="width: 15rem;">
+  <img class="card-img-top" src="img/logo.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title align-self-center">Card title</h5>
+    <p class="card-text align-self-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
+    </div>
+    </div><br><br>
+    </div>
+
+<div class ="helo">
+<div class="container">
+<div class = "row mid">
+<div class = "col-sm-1">
+<img src="img/logo.png" class="img-fluid">
+</div>
+<div class = "col-sm-1"><p>---></p></div>
+<div class = "col-sm-7"><h1>truelancer pay safe</h1><br><p>Via data attributes
+Use data attributes to easily control the position of the carousel</p></div>
+</div>
+
+<div class = "row mid">
+<div class = "col-sm-1">
+<img src="img/logo.png" class="img-fluid">
+</div>
+<div class = "col-sm-1"><p>---></p></div>
+<div class = "col-sm-7"><h1>truelancer pay safe</h1><br><p>Via data attributes
+Use data attributes to easily control the position of the carousel</p></div>
+</div>
+
+<div class = "row mid">
+<div class = "col-sm-1">
+<img src="img/logo.png" class="img-fluid">
+</div>
+<div class = "col-sm-1"><p>---></p></div>
+<div class = "col-sm-7"><h1>truelancer pay safe</h1><br><p>Via data attributes
+Use data attributes to easily control the position of the carousel</p></div>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row cursor ">
+<figure class="figure">
+ 
+  <img src="img/oil.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><h1>A caption </h1>
+  <p>hello</p></figcaption>
+
+</figure>
+<figure class="figure">
+ 
+  <img src="img/oil.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><h1>A caption </h1>
+  <p>hello</p></figcaption>
+
+</figure>
+<figure class="figure">
+ 
+  <img src="img/oil.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><h1>A caption </h1>
+  <p>hello</p></figcaption>
+
+</figure>
+
+</div>
+
+<div class="row cursor">
+<figure class="figure">
+ 
+  <img src="img/oil.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><h1>A caption </h1>
+  <p>hello</p></figcaption>
+
+</figure>
+<figure class="figure">
+ 
+  <img src="img/oil.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><h1>A caption </h1>
+  <p>hello</p></figcaption>
+
+</figure>
+<figure class="figure">
+ 
+  <img src="img/oil.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption"><h1>A caption </h1>
+  <p>hello</p></figcaption>
+
+</figure>
+
+</div>
+</div>
+
+
+
+
+  <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+           
+  
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              121, Smriti Nagar Road<br>
+		              Nehru Nagar, Bhilai<br>
+		              CHHATTISGARH<br>
+                      <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                      <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: 
+                      <a href="mailto:confusion@food.net">hello@gps.net</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Ghritendra</p>
+                </div>
+           </div>
+        </div>
+
+
+
+
+
+
+
+
+   
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $ (window).scroll(function(){
+                $('nav').toggleClass('scrolled' , $(this).scrollTop() > 100 );
+            
+            
+        });
+        </script>
+</body>
+</html>
